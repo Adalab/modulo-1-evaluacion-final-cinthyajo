@@ -18,11 +18,19 @@ header {
   background-color: #0271bc;
 }
 
-.title {
+.container2 {
   display: flex;
   justify-content: center;
   text-align: center;
   align-items: center;
+  flex-direction: column;
+}
+.title1 {
+  /*display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;*/
+  font-size: 42px;
   color: #ffffff;
   text-transform: uppercase;
   word-spacing: 100vw;
@@ -31,9 +39,103 @@ header {
 .subtitle {
   display: flex;
   color: #ffffff;
+  font-size: 16px;
+  height: 21px;
+  margin-top: -10px;
+  /*justify-content: center;
+  text-align: center;
+  align-items: center;*/
+}
+
+/*
+.scrolldown {
+  display: flex;
+  flex-direction: column;
+  width: 20px;
+  height: 11.7px;
+  justify-content: flex-end;
+  text-align: end;
+  align-items: flex-end;
+  background-color: burlywood;
+}
+
+.scrolldown:before {
+  border-radius: 10px;
+  width: 4px;
+  height: 4px;
+  line-height: 3px;
+  border-color: black;
+  background-color: white;
+}
+*/
+
+/*main segundo módulo*/
+.section1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+.text1 {
+  width: 90px;
+  height: 30px;
+  margin: 30px 215px 1px 15px;
+  font-size: 14px;
+  /*font-family: ;*/
+  color: #8ccbea;
+  text-transform: capitalize;
+}
+
+.text2 {
+  width: 290px;
+  height: 60px;
+  margin: 0 15px 0 15px;
+  font-size: 24px;
+  color: #000000;
+  /*font-family:robotoslab*/
+  font-weight: bold;
+  line-height: 1.25;
+  text-transform: capitalize;
+}
+
+.text3 {
+  width: 290px;
+  height: 120px;
+  margin: 15px 15px 120px 15px;
+  font-size: 18px;
+  color: #4a4a4a;
+  line-height: 1.67;
+  /*font-family: roboto;*/
+}
+
+/*main tercer módulo*/
+.section2 {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   text-align: center;
   align-items: center;
+  background-color: #eff9ff;
+}
 
-  background-color: burlywood;
+.title2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 30px 15px 30px 15px;
+  /*font-family: RobotoSlab-Bold;
+  margin: 290px 30px 45px 15px;*/
+  text-transform: capitalize;
+}
+
+.section3 {
+  height: 100vh;
+  display: grid;
+  grid-gap: 15px;
+  background-color: #eff9ff;
+}
+
+.item {
+  grid-column: span 2;
 }

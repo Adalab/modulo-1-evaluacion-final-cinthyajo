@@ -1,1 +1,1 @@
-p{background-color:aquamarine}
+header{display:flex;background-image:url("../images/cover.jpg");height:100vh}.linkmenu{position:fixed left;width:14px;height:16px;padding:14px;color:#ffffff}.container1{width:44px;height:44px;background-color:#0271bc}.title{display:flex;justify-content:center;text-align:center;align-items:center;color:#ffffff;text-transform:uppercase;word-spacing:100vw}.subtitle{display:flex;color:#ffffff;justify-content:center;text-align:center;align-items:center;background-color:burlywood}
