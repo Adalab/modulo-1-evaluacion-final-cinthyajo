@@ -5,6 +5,33 @@
   --bg-color: rgba(255, 68, 0, 0.81);
 }
 
+.section5 {
+  background-color: orange;
+  display: flex;
+}
+
+.header5,
+.p5 {
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+@media all and (min-width: 768px) {
+  .section5 {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .header5 {
+    padding-left: 20px;
+  }
+
+  .p5 {
+    padding-right: 20px;
+  }
+}
+
 header {
   display: flex;
   height: 100vh;
